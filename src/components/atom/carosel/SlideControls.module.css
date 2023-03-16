@@ -1,0 +1,18 @@
+.spanControls{
+    position: absolute;
+    transform: translate(0 ,-50%);
+    top: 50%;
+    cursor: pointer;
+    padding: 0.4rem  0.5rem;
+    border : 1px solid #fff;
+    border-radius: 0.5rem;
+    line-height: 0;
+}
+
+.spanControlLeft {
+    left: 5rem;
+}
+
+.spanControlRight {
+    right: 5rem;
+}

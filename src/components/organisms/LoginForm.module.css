@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formSection {
+  width: 250px;
+}
+
+.title {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.btnLogin {
+  padding: 0.5rem;
+  margin: 0 0 50px;
+}
+
+.line {
+  margin: 1rem;
+  display: inline-block;
+}
+
+.login_registration_link {
+  text-align: center;
+}

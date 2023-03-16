@@ -1,0 +1,7 @@
+.nav {
+    margin-top: 1rem;
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
