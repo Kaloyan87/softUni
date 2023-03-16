@@ -1,43 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+label {
+    margin: 0;
+}
 
 :root {
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-black-two: #0c0c0c;
-  --color-text: #1c1c1c;
-  --color-link: #0db5ff;
-  --color-check: #32cd32;
-  --color-error: #ff3333;
-  --box-shadow-login: rgba(0, 0, 0, 0.56);
-  --border-radius: 6px;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-black-two: #0c0c0c;
+    --color-text: #1c1c1c;
+    --color-link: #0db5ff;
+    --color-check: #32cd32;
+    --color-error: #ff3333;
+    --box-shadow-login: rgba(0, 0, 0, 0.56);
+    --border-radius: 6px;
 }
 
 body {
-  color: var(--color-text);
-  font-family: "Poppins", Calibri, sans-serif;
-  font-size: 16px;
-  height: 100%;
-  width: 100%;
+    color: var(--color-text);
+    font-family: "Poppins", Calibri, sans-serif;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
 }
 
 a {
-  text-decoration: none;
-  color: var(--color-link);
+    text-decoration: none;
+    color: var(--color-link);
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 button {
-  background-color: var(--color-black-two);
-  color: var(--color-white);
-  cursor: pointer;
+    background-color: var(--color-black-two);
+    color: var(--color-white);
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: all 0.30s ease;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.30s ease;
 }

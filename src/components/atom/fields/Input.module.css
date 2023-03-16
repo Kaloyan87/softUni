@@ -1,0 +1,8 @@
+.inputStyle {
+    width: 14rem;
+    height: 2rem;
+    border-radius: 7px;
+    box-shadow: var(--box-shadow-login) 1px 6px 10px 3px;
+    font-size: 1rem;
+    text-align: center;
+}

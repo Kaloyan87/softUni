@@ -5,13 +5,19 @@
   height: 100vh;
 }
 
-.formSection {
-  width: 250px;
-}
-
 .title {
   text-align: center;
   margin: 35px 0;
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 32rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-login) 0 22px 70px 4px;
 }
 
 .registrationForm {
@@ -27,7 +33,8 @@
 
 .btnRegistration {
   padding: 0.5rem;
-  margin: 0 0 50px;
+  width: 11rem;
+  align-self: center;
 }
 
 .line {
@@ -37,6 +44,7 @@
 
 .login_registration_link {
   text-align: center;
+  padding: 2rem;
 }
 
 .offscreen {
@@ -59,13 +67,14 @@
 }
 
 .instructions {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   border-radius: var(--border-radius);
-  background: var(--color-black);
+  background: rgba(0, 0, 0, 0.78);
   color: var(--color-white);
   padding: 0.25rem;
   position: relative;
-  bottom: 0;
+  bottom: -1rem;
+  width: 220px;
 }
 
 .instructions > svg {

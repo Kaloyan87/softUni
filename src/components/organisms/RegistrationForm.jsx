@@ -4,6 +4,8 @@ import styles from "./RegistrationForm.module.css";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaTimes} from "react-icons/fa";
 import {BsInfoCircle} from "react-icons/bs";
+import Input from "../atom/fields/Input";
+import backGround from "../../assets/images/bg-registration.jpeg";
 
 
 const RegistrationForm = () => {
@@ -14,7 +16,7 @@ const RegistrationForm = () => {
 
     const [user, setUser] = useState("");
     const [validName, setValidName] = useState(false);
-
+    console.log(user)
 
     const [pwd, setPwd] = useState("");
     const [validPwd, setValidPwd] = useState(false);
@@ -42,7 +44,13 @@ const RegistrationForm = () => {
     }
 
     return (
-        <section className={styles.box}>
+        <section style={{
+            backgroundImage:`url(${backGround})`,
+            backgroundRepeat:"no-repeat",
+            backgroundSize:"cover"
+        }}
+                 className={styles.box}
+        >
             <div className={styles.formSection}>
                 <h1 className={styles.title}>Registration</h1>
                 <form
@@ -60,7 +68,7 @@ const RegistrationForm = () => {
                                 className={validName || !user ? styles.hide : styles.invalid}
                             />
                         </label>
-                        <input
+                        <Input
                             required={true}
                             type="text"
                             id="userName"
@@ -87,7 +95,7 @@ const RegistrationForm = () => {
                                 className={validPwd || !pwd ? styles.hide : styles.invalid}
                             />
                         </label>
-                        <input
+                        <Input
                             required={true}
                             type="password"
                             id="password"
@@ -112,12 +120,12 @@ const RegistrationForm = () => {
                                 className={validEmail || !email ? styles.hide : styles.invalid}
                             />
                         </label>
-                        <input
+                        <Input
                             type="email"
                             id="email"
                             onChange={emailValidate}
                             value={email}
-                            required
+                            required={true}
                         />
                         <p className={!validEmail && email ? styles.instructions : styles.offscreen}>
                             <BsInfoCircle/>

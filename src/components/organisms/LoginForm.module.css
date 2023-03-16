@@ -6,7 +6,13 @@
 }
 
 .formSection {
-  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 32rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-login) 0 22px 70px 4px;
 }
 
 .title {
