@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import styles from "./LoginForm.module.css";
-import backGround from "../../assets/images/bg-login.jpeg"
-import Input from "../atom/fields/Input";
+import backGround from "../../../assets/images/bg-login.jpeg"
+import Input from "../../atom/fields/Input";
 
 const LoginForm = () => {
 

@@ -1,14 +1,13 @@
-import {useState} from "react";
-import {Link} from "react-router-dom";
-import styles from "./RegistrationForm.module.css";
+import React, {useState} from 'react';
+import styles from "./UserForm.module.css"
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaTimes} from "react-icons/fa";
 import {BsInfoCircle} from "react-icons/bs";
-import Input from "../atom/fields/Input";
-import backGround from "../../assets/images/bg-registration.jpeg";
+import {Link} from "react-router-dom";
+import Input from "../../atom/fields/Input";
 
 
-const RegistrationForm = () => {
+const UserForm = () => {
 
     const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
     const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{6,24}$/;
@@ -16,7 +15,6 @@ const RegistrationForm = () => {
 
     const [user, setUser] = useState("");
     const [validName, setValidName] = useState(false);
-    console.log(user)
 
     const [pwd, setPwd] = useState("");
     const [validPwd, setValidPwd] = useState(false);
@@ -44,13 +42,7 @@ const RegistrationForm = () => {
     }
 
     return (
-        <section style={{
-            backgroundImage:`url(${backGround})`,
-            backgroundRepeat:"no-repeat",
-            backgroundSize:"cover"
-        }}
-                 className={styles.box}
-        >
+        <section className={styles.box}>
             <div className={styles.formSection}>
                 <h1 className={styles.title}>Registration</h1>
                 <form
@@ -146,5 +138,4 @@ const RegistrationForm = () => {
     );
 };
 
-export default RegistrationForm;
-
+export default UserForm;

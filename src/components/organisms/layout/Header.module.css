@@ -1,0 +1,44 @@
+.navbar {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoContainer {
+    text-align: center;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav > span {
+    color: var(--color-white);
+}
+
+.nav > span > a {
+    color: var(--color-white);
+    font-size: 1.5rem;
+}
+
+.nav > span > a:hover {
+    color: var(--color-link);
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+}

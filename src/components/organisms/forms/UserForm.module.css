@@ -1,0 +1,82 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.formSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 32rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-login) 0 22px 70px 4px;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.btnRegistration {
+    padding: 0.5rem;
+    width: 11rem;
+    align-self: center;
+}
+
+.line {
+    margin: 1rem;
+    display: inline-block;
+}
+
+.login_registration_link {
+    text-align: center;
+    padding: 2rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: var(--color-check);
+    margin-left: 0.35rem;
+}
+
+.invalid {
+    color: var(--color-error);
+    margin-left: 0.25rem;
+}
+
+.instructions {
+    font-size: 0.95rem;
+    border-radius: var(--border-radius);
+    background: rgba(0, 0, 0, 0.78);
+    color: var(--color-white);
+    padding: 0.25rem;
+    position: relative;
+    bottom: -1rem;
+    width: 220px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}

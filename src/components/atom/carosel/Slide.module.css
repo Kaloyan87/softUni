@@ -3,22 +3,20 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 2rem;
 }
 
 
 .img {
     animation: Slide_transition-animation__nrrdt 400ms linear;
-    scale: 0.6;
+    width: 100%;
+    height: 100%;
 }
 
 .imgContainer {
-    width: 39rem;
-    height: 39rem;
+    width: 30rem;
+    height: 30rem;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 2rem;
 }
 
