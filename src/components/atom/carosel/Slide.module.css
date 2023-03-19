@@ -6,7 +6,6 @@
     padding-top: 2rem;
 }
 
-
 .img {
     animation: Slide_transition-animation__nrrdt 400ms linear;
     width: 100%;
@@ -14,10 +13,11 @@
 }
 
 .imgContainer {
-    width: 30rem;
-    height: 30rem;
+    width: 80rem;
+    height: 40rem;
     overflow: hidden;
     border-radius: 2rem;
+    box-shadow: var(--box-shadow-login) 75px 62px 40px -35px;
 }
 
 .title {

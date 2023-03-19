@@ -10,7 +10,7 @@ const Carousel = ({
   initialIndex = 0,
   infiniteLoop = true,
   autoplay = true,
-  autoplayInterval = 3000000
+  autoplayInterval = 30000000
   }) => {
     const [slideIndex, setSlideIndex] = useState(initialIndex)
 

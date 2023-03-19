@@ -1,27 +1,27 @@
 export const slides = [
     {
-        title:"Garlic Butter Chicken",
+        title:"Roast Chicken",
         image:
-            "https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5.jpg",
+            "https://media.newyorker.com/photos/5f1751292a375b7f28f280ac/16:9/w_2238,h_1259,c_limit/Buford-chicken.jpg",
     },
     {
-        title:"Curried tomato lentil soup",
+        title:"Cheeseburger",
         image:
-            "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/pantry-recipes-2.jpg",
+            "https://i.pinimg.com/originals/46/b7/d5/46b7d56445a1675781ba4bd97fd62a35.jpg",
     },
     {
-        title:"Creamy, cheesy chicken breasts",
+        title:"Pizza Pepperoni",
         image:
-            "https://lh3.googleusercontent.com/6Kl0pJeahIyMrT32buIMoaUZ_lUrqhVSqlSbh8ZdmWDrI614tFWOfFYKYre3zhmCEUUEFVeY1PlWli3TFa41NYpLZ6EUXUafRyY=w1400-h1050-c-rj-v1-e365",
+            "https://wallpapersmug.com/download/1600x900/ebde76/delicious-pizza-food.jpg",
     },
     {
-        title:"Simple Roast Chicken",
+        title:"Pancake",
         image:
-            "https://assets.epicurious.com/photos/62f16ed5fe4be95d5a460eed/4:6/w_3087,h_4631,c_limit/RoastChicken_RECIPE_080420_37993.jpg",
+            "https://img3.wallspic.com/previews/6/9/9/5/6/165996/165996-strawberry-pancake-strawberry_pie-blini-palatschinke-x750.jpg",
     },
     {
-        title:"Classic Mediterranean Salad",
+        title:"Carbonara Pasta",
         image:
-            "https://recipes.heart.org/-/media/Images/Healthy-Living/Recipes/Mediterranean_Salad.jpg",
+            "https://media.newyorker.com/photos/5909760c2179605b11ad83fe/16:9/w_1280,c_limit/Gopnik-CarbonaraPuristsCantStopthePastaRevolution2.jpg",
     },
 ]
