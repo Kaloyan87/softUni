@@ -1,0 +1,82 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    text-align: center;
+    width: 700px;
+    height: auto;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.duration {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 7px;
+    box-shadow: var(--box-shadow-login) 1px 6px 10px 3px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.photo {
+    width: 21rem;
+    height: 2rem;
+    border-radius: 7px;
+    box-shadow: var(--box-shadow-login) 1px 6px 10px 3px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.textArea {
+    border-radius: 7px;
+    box-shadow: var(--box-shadow-login) 1px 6px 10px 3px;
+    font-size: 1rem;
+}
+
+.buttonCreate {
+    width: 150px;
+    height: 40px;
+    background-color: #c2d5c3;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.buttonCancel {
+    width: 90px;
+    height: 40px;
+    background-color: #de6464;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+    text-transform: uppercase;
+}

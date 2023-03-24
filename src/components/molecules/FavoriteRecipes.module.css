@@ -1,0 +1,12 @@
+.favoriteContainer {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.favoriteTitle {
+    text-align: center;
+    padding: 60px;
+}

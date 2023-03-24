@@ -1,0 +1,23 @@
+.openCreateForm {
+    width: 150px;
+    height: 40px;
+    background-color: #c2d5c3;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.recipesListTitle{
+    text-align: center;
+    padding: 60px;
+}
+
+.recipeCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
