@@ -20,10 +20,9 @@ function App() {
         }
     }, [token,navigate])
 
-
     return (
         <>
-            {token && <Header  />}
+            {token && <Header/>}
             <main>
                 <Routes>
                     <Route path="/" element={<Navigate to="/login"/>}/>

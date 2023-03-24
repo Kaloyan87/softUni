@@ -34,10 +34,11 @@ const Header = () => {
                         <span><Link to="/home">Home</Link></span>
                         <span><Link to="/recipes">Recipes List</Link></span>
                         <span><Link to="/shopping">For Shopping</Link></span>
+                        <span><Link to="/shopping">User Details</Link></span>
                         <span>
                                 <a type="button"
                                    onClick={() => {setOpenModal(true)}}
-                                   href="/my-amazing-page"
+                                   href="#"
                                 >
                                     User Details
                                 </a>
@@ -45,14 +46,10 @@ const Header = () => {
                         <span onClick={logout}> Log out</span>
                     </div>
                 </nav>
-
-
             </header>
         </>
-    )
-        ;
+    );
 };
-
 
 export default Header;
 

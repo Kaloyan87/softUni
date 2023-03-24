@@ -1,14 +1,33 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import * as service from "../../services/services-recipes";
+import RecipeCard from "./RecipeCard";
+import styles from './FavoriteRecipes.module.css'
 
 const FavoriteRecipes = () => {
+
+    const [favorites, setFavorites] = useState([])
+
+    useEffect(() => {
+        service.getAllFavorite()
+            .then(response => {
+                setFavorites(response.results)
+            })
+    }, [])
+
+
     return (
-        <div>
-            <h1>favorite recipes</h1>
-            <h1>favorite recipes</h1>
-            <h1>favorite recipes</h1>
-            <h1>favorite recipes</h1>
-            <h1>favorite recipes</h1>
-        </div>
+        <>
+            <h2 className={styles.favoriteTitle}>Your Favorite Recipes</h2>
+            {favorites?.length === 0 &&
+                (
+                    <h3 style={{textAlign: "center"}}>
+                        No Favorite Recipes
+                    </h3>
+                )}
+            <div className={styles.favoriteContainer}>
+                {favorites.map(favorite => <RecipeCard buttonsDisable={true} key={favorite.id} {...favorite}/>)}
+            </div>
+        </>
     );
 };
 

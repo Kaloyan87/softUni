@@ -1,0 +1,83 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+    width: 40%;
+}
+
+.cardTitle {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.cardBody {
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content:space-around ;
+    padding: 30px;
+}
+
+.recipesPhoto {
+    width: 300px;
+    height:300px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients {
+    white-space: pre-line;
+}
+
+.detailBtn {
+    width: 150px;
+    height: 40px;
+    background-color: #37b0b6;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+}
+
+.deleteBtn {
+    width: 150px;
+    height: 40px;
+    background-color: #de6464;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+}
+
+.editBtn {
+    width: 150px;
+    height: 40px;
+    background-color: #64dea7;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+}
+
+.favoriteBtn {
+    width: 150px;
+    height: 40px;
+    background-color: #decc64;
+    border-radius: 10px;
+    color: #212e10;
+    font-size: 16px;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
